@@ -1,9 +1,10 @@
 [Bb]in/
-[Oo]bj/# Logs and temporary files
-FooterThucHanh/FooterThucHanh.Web/App_Data/logs/
-FooterThucHanh/FooterThucHanh.Web/server.log
-FooterThucHanh/FooterThucHanh.Web/${var:configDir}/
-FooterThucHanh/FooterThucHanh.Web/wwwroot/Default/is-cache/
+[Oo]bj/
+# Logs and temporary files
 *.log
-*.db
+App_Data/logs/
+App_Data/Sites/Default/OrchardCore.db
+wwwroot/Default/is-cache/
+server.log
+${var:configDir}/logs/
 packages-microsoft-prod.deb
